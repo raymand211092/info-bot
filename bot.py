@@ -1,10 +1,10 @@
 import os
 import telebot
 
-channel = '-XXXXXXXXX'
-token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+channel = '-1001420899246'
+token = '903986387:AAEOTXBHwGkilq9PCvC9NkfohZH259H7pC0'
 bot = telebot.TeleBot(token)
-ip = ["10.5.110.55", "10.5.109.151", "10.5.110.56"]
+ip = ["im.todus.cu", "www.todus.cu", "s3.todus.cu"]
 #ip = ['google.com', 'yandex.ru', 'facebook.com']
 
 for val in ip:
