@@ -34,9 +34,9 @@ def checkHost(ip, port):
 return ipup
 
 if checkHost(ip, port):
-print ip + " port " + str(port) + u" is \u001b[32;1mUP!\u001b[0m"
-bot.send_message(channel, val + ' is up')
+print ip + " is UP"
+bot.send_message(channel, ip + " is UP")
 
 else:
-print ip + " port " + str(port) + u" is \u001b[31;1mDOWN!\u001b[0m"
-bot.send_message(channel, val + ' is down!')
+    print ip + " is DOWN"
+    bot.send_message(channel, ip + " is DOWN")
