@@ -13,7 +13,7 @@ def checkport(port):
     socket_objet = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     port_is = socket_objet.connect_ex((ip, port))
     socket_objet.close()
-    if port_is == 0;
+    if port_is == 0:
         return ("toDus esta funcionando")
         bot.send_message(channel, "toDus esta funcionando")
     else:
