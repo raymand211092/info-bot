@@ -18,8 +18,6 @@ def port_scan(port):
         return False
   
   
-port = int(input("Enter the port number to be scanned: ")) 
-  
 if port_scan(port): 
     print('Port', port, 'is open') 
 else: 
