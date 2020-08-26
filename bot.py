@@ -17,6 +17,6 @@ def checkport(port):
         return ("toDus esta funcionando")
         bot.send_message(channel, "toDus esta funcionando")
     else:
-        return ("Hay problemas de conexion al toDus")
-        bot.send_message(channel, "Hay problemas de conexion al toDus")
+        return ("Hay problemas de conexión al toDus")
+        bot.send_message(channel, "Hay problemas de conexión al toDus")
     
