@@ -1,4 +1,4 @@
-import os
+import socket
 import telebot
 
 channel = '@teste_forw1'
@@ -8,7 +8,6 @@ ip = ["www.todus.cu"]
 port = 22
 #ip = ['google.com', 'yandex.ru', 'facebook.com']
 
-import socket
 def isOpen(ip,port):
    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
    try:
