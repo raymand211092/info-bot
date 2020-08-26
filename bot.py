@@ -5,13 +5,15 @@ channel = '@teste_forw1'
 token = '903986387:AAEOTXBHwGkilq9PCvC9NkfohZH259H7pC0'
 bot = telebot.TeleBot(token)
 ip = ["www.todus.cu"]
+port = 22
 #ip = ['google.com', 'yandex.ru', 'facebook.com']
 
-for val in ip:
-    response = os.system('ping -c 1 ' + val)
-    if response == 0:
-        print(val + ' is up!')
-        bot.send_message(channel, val + ' is up')
-    else:
-        print(val + ' is down!')
-        bot.send_message(channel, val + ' is down!')
+import socket
+def isOpen(ip,port):
+   s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+   try:
+      s.connect((ip, int(port)))
+      s.shutdown(2)
+      return True
+   except:
+      return False
