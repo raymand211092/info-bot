@@ -9,17 +9,10 @@ port = 22
 #ip = ['google.com', 'yandex.ru', 'facebook.com']
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
-target = (ip, pot ') 
-  
-# getting the ip address using gethostbyname 
-# function 
-t_IP = socket.gethostbyname(target) 
-print("Starting scan on host: ", t_IP) 
-  
   
 def port_scan(port): 
     try: 
-        s.connect((t_IP, port)) 
+        s.connect((ip, port)) 
         return True
     except: 
         return False
