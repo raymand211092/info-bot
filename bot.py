@@ -4,8 +4,8 @@ import telebot
 channel = '@teste_forw1'
 token = '903986387:AAEOTXBHwGkilq9PCvC9NkfohZH259H7pC0'
 bot = telebot.TeleBot(token)
-ip = ["im.todus.cu"]
-port = 22
+ip = ["s3.todus.cu"]
+port = 80
 #ip = ['google.com', 'yandex.ru', 'facebook.com']
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
