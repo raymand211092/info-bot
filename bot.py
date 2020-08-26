@@ -20,7 +20,7 @@ def port_scan(port):
   
 if port_scan(port): 
     print('Port', port, 'is open') 
-    bot.send_message(channel, port ' is up')
+    bot.send_message(channel, 'Port', port, 'is open')
 else: 
-    print("port", port, "is closed")
-    bot.send_message(channel, port ' is down')
+    print('Port', port, 'is closed')
+    bot.send_message(channel, 'Port', port, 'is closed')
