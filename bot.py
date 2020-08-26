@@ -36,4 +36,4 @@ def checkHost(ip, port):
         return ipup
 
 if checkHost(ip, port):
-        print ip + " is UP"
+        print(ip + " is UP")
