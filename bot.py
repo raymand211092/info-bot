@@ -9,7 +9,7 @@ port = 22
 #ip = ['google.com', 'yandex.ru', 'facebook.com']
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
-target = (ip:pot ') 
+target = (ip, pot ') 
   
 # getting the ip address using gethostbyname 
 # function 
