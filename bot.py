@@ -37,3 +37,4 @@ def checkHost(ip, port):
 
 if checkHost(ip, port):
         print(ip + " is UP")
+        bot.send_message(channel, ip + ' is up')
